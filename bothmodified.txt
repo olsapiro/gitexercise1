@@ -1,0 +1,5 @@
+if [-z "$ (git status :-- porcelain) " ]; then
+echo "ok"
+else 
+echo "error"
+fi 
